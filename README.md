@@ -1,12 +1,61 @@
-# React + Vite
+# TaskNest 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TaskNest** is a minimalist, fast, and intuitive task management web app built using **Vite + React + TailwindCSS**.  
+Designed for productivity enthusiasts and devs who value simplicity with speed.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- 📋 Add, delete, and manage tasks with ease  
+- 🌗 Light and dark theme toggle  
+- ⚡ Blazing-fast build with **Vite**  
+- 🎨 Beautiful UI using **TailwindCSS**  
+- 📱 Fully responsive layout  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+| Layer        | Technology           |
+|--------------|----------------------|
+| Frontend     | React (with Vite)    |
+| Styling      | TailwindCSS          |
+| Package Mgr  | npm                  |
+| Version Ctrl | Git + GitHub         |
+
+---
+
+Project Structure
+tasknest/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   └── App.jsx
+├── tailwind.config.js
+└── package.json
+
+Setup Instructions
+git clone https://github.com/muhammadh-dev/tasknest.git
+cd tasknest
+npm install
+npm run dev
+
+Timeline
+Commit	Date
+Initial Vite Setup	    2025-07-06
+Utility Module Added	2025-07-04
+Auth Placeholder	    2025-07-03
+Config Setup	        2025-07-02
+
+Live Video Demo
+[![Watch the demo](https://img.youtube.com/vi/AqdAboCvQb0/0.jpg)](https://www.youtube.com/watch?v=AqdAboCvQb0)
+
+Contact
+For collaborations or questions:
+dev.muhammadh@gmail.com
+
+Star This Repo
+If you liked the project or found it useful, please give it a ⭐ on GitHub!
+It helps me grow and reach more developers 
